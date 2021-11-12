@@ -1,6 +1,7 @@
 .navbarbg {
   height: 55px;
   background-color: white;
+  border-bottom: none;
 }
 
 input.searche {
@@ -13,9 +14,12 @@ input.searche {
 input.searche::placeholder {
   font-size: 14px;
   color: gray;
-  background-image: url(/bootstraplinkedinclone/assets/search-solid.svg);
+  background-image: url(/assets/search-solid.svg);
   background-repeat: no-repeat;
   background-size: 7%;
+  background-position: left;
+  padding-left: 20px;
+  opacity: 0.8;
 }
 
 .body {
@@ -65,9 +69,10 @@ input.content::placeholder {
   font-weight: bolder;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(/bootstraplinkedinclone/assets/edit-regular.svg);
+  background-image: url(/assets/edit-regular.svg);
   background-repeat: no-repeat;
   background-size: auto;
+  padding-left: 20px;
 }
 
 div.card {
@@ -128,3 +133,5 @@ button.ref:hover {
   font-size: 14px;
   margin-left: 8px;
 }
+
+
